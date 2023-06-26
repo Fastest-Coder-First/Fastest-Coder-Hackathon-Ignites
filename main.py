@@ -5,7 +5,7 @@ import re
 from datetime import date, datetime
 
 def get_weather(city):
-    api_key = '1ba83e36cc502586bd258c36bc48df4e'
+    api_key = 'ADD_API_KEY'
     base_url = 'http://api.openweathermap.org/data/2.5/weather'
     params = {'q': city, 'appid': api_key, 'units': 'metric'}
     
